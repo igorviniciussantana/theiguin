@@ -1,11 +1,10 @@
+import { AvatarWrapper } from "./styled";
 
 
 
 
-export default function Background(){
+export default function Avatar(){
 return(
-  <div>
-
-  </div>
+  <AvatarWrapper />
 )
 }

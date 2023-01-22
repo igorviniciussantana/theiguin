@@ -6,7 +6,8 @@ export const AvatarWrapper = styled.div`
   border-radius: 50%;
   padding: 0.5rem;
   position: relative;
-
+  margin-top: 2rem;
+  
   &::before {
     content: "";
     position: absolute;

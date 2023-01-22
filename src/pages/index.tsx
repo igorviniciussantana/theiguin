@@ -20,6 +20,7 @@ export default function Home() {
 
         <main className={styles.main}>
        <Avatar />
+       Teste
        </main>
       </div>
     </>

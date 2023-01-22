@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const GreetingWrapper = styled.div`
   width: 100%;
   margin-top: 1.75rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const Title = styled.h1`
@@ -24,3 +28,8 @@ export const Subtitle = styled.h2`
   color: white;
   font-weight: inherit;
 `;
+
+
+export const Logo = styled.img`
+margin: 1rem 0 1.5rem 0;
+`

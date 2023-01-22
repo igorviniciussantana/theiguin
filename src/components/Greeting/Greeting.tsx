@@ -1,4 +1,4 @@
-import { GreetingWrapper, Title, Subtitle } from "./styled";
+import { GreetingWrapper, Title, Subtitle, Logo } from "./styled";
 import localFont from "@next/font/local";
 
 const AkiraExpanded = localFont({
@@ -18,6 +18,7 @@ export default function Greeting() {
       <Subtitle className={NeueMachineLight.className}>
         Página de Links
       </Subtitle>
+      <Logo src="/iguinlogo.svg" />
     </GreetingWrapper>
   );
 }

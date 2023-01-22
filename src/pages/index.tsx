@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.scss";
 import { Avatar, Greeting } from "@/components/imports";
+import Card from "@/components/Card/Card";
 
 
 export default function Home() {
@@ -16,6 +17,9 @@ export default function Home() {
         <main className={styles.main}>
           <Avatar />
           <Greeting />
+
+          <Card />
+
         </main>
       </div>
     </>

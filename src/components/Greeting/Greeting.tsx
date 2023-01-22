@@ -1,6 +1,10 @@
 import { GreetingWrapper, Title, Subtitle } from "./styled"
-import { AkiraExpanded, NeueMachineLight } from "@/pages/fonts/exports"
+import localFont from "@next/font/local"
 
+
+ const AkiraExpanded = localFont({src: "./../../pages/fonts/Akira_Expanded_Demo.otf"})
+ const NeueMachineLight = localFont({ src: "./../../pages/fonts/PPNeueMachina-InktrapLight.otf" });
+ const NeueMachineBold = localFont({ src: "./../../pages/fonts/PPNeueMachina-InktrapUltrabold.otf" });
 export default function Greeting(){
     return(
        <GreetingWrapper>

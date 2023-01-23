@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "@/styles/Home.module.scss";
 import { Avatar, Greeting } from "@/components/imports";
 import Card from "@/components/Card/Card";
-
+import { Links } from "@/data/links";
 
 export default function Home() {
   return (
@@ -18,8 +18,9 @@ export default function Home() {
           <Avatar />
           <Greeting />
 
-          <Card />
-
+          {Links.map((link) => {
+            return <Card url={link.url} title={link.title} subtitle={link.subtitle} icon={link.icon} key={link.title} />;
+          })}
         </main>
       </div>
     </>

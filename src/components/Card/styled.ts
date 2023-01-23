@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
-export const CardWrapper = styled.section`
+export const CardWrapper = styled.a`
 display: flex;
 position: relative;
 
+margin-bottom:0.5rem;
 align-items: center;
 column-gap: 1rem;
 padding: 1.25rem 1.5rem;
@@ -23,7 +24,7 @@ color: white;
     padding: 1px;
 
     border-radius: 0.5rem;
-    background: linear-gradient(134.82deg, #ffb800 2.82%, #ab72f3 107.42%);
+    background: linear-gradient(134.82deg, #ab72f3 2.82%,  #ffb800 107.42%);
     -webkit-mask: linear-gradient(#fff 0 0) content-box,
       linear-gradient(#fff 0 0);
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -33,13 +34,13 @@ color: white;
 `
 
 export const Icon = styled.img`
-
 `
 
 export const Info = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: center;
+height: fit-content;
 `
 
 export const Title = styled.h1`
@@ -50,7 +51,7 @@ text-transform: uppercase;
 `
 
 export const Subtitle = styled.h2`
-font-size: 0.8rem;
+font-size: 0.75rem;
 font-weight: inherit;
 text-transform: uppercase;
 

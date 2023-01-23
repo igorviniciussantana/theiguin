@@ -8,6 +8,10 @@ body {
   width: 100%;
   min-height: 100vh;
 
+  a{
+    text-decoration: none;
+  }
+
   @media screen and (min-width: 700px) {
     background-image: url("../../public/background-desktop.png");
     background-size: cover;

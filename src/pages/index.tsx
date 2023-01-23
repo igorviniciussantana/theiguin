@@ -3,6 +3,10 @@ import styles from "@/styles/Home.module.scss";
 import { Avatar, Greeting } from "@/components/imports";
 import Card from "@/components/Card/Card";
 import { Links } from "@/data/links";
+import AOS from 'aos'
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
+
 
 export default function Home() {
   return (
@@ -14,13 +18,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
         <meta name="theme-color" content="#18082E" />
       </Head>
+     
       <div className={styles.body}>
         <main className={styles.main}>
           <Avatar />
-          <Greeting />
+          <Greeting/>
 
           {Links.map((link) => {
-            return <Card url={link.url} title={link.title} subtitle={link.subtitle} icon={link.icon} key={link.title} />;
+            return <Card url={link.url} title={link.title} subtitle={link.subtitle} icon={link.icon} key={link.title} data-aos="fade-in"/>;
           })}
         </main>
       </div>

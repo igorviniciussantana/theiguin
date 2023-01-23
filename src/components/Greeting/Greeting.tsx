@@ -13,7 +13,7 @@ const NeueMachineBold = localFont({
 
 export default function Greeting() {
   return (
-    <GreetingWrapper>
+    <GreetingWrapper data-aos="fade-up" data-aos-delay="700">
       <Title className={AkiraExpanded.className}>Seja bem vindo!</Title>
       <Subtitle className={NeueMachineLight.className}>
         Página de Links

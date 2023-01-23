@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import AOS from 'aos'
 
 export default function Document() {
 
@@ -9,7 +8,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript>
-        AOS.init()
+
         </NextScript>
       </body>
     </Html>

@@ -5,10 +5,14 @@ import Card from "@/components/Card/Card";
 import { Links } from "@/data/links";
 import AOS from 'aos'
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import { useEffect, useState } from "react";
 
 
 
 export default function Home() {
+
+
+ 
   return (
     <>
       <Head>
@@ -21,12 +25,13 @@ export default function Home() {
      
       <div className={styles.body}>
         <main className={styles.main}>
-          <Avatar />
+          <Avatar/>
           <Greeting/>
-
+<div data-aos='fade-up' data-aos-delay='800'>
           {Links.map((link) => {
-            return <Card url={link.url} title={link.title} subtitle={link.subtitle} icon={link.icon} key={link.title} data-aos="fade-in"/>;
+            return <Card url={link.url} title={link.title} subtitle={link.subtitle} icon={link.icon} key={link.title} />;
           })}
+          </div>
         </main>
       </div>
     </>

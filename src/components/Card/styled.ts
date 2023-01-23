@@ -3,6 +3,13 @@ import styled from "styled-components";
 export const CardWrapper = styled.a`
 display: flex;
 position: relative;
+transition: 0.5s !important;
+
+
+&:hover{
+  transform: scale(1.04) ;
+  transition: 0.5s ;
+}
 
 margin-bottom:0.5rem;
 align-items: center;

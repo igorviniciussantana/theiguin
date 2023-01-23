@@ -17,6 +17,15 @@ export const Title = styled.h1`
   text-align: center;
   font-size: 1.5rem;
   text-transform: uppercase;
+  opacity: 0.8;
+
+  animation: blinker 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+
+  @keyframes blinker {
+    50% {
+      opacity: 1;
+    }
+  }
 `;
 
 export const Subtitle = styled.h2`
@@ -29,7 +38,6 @@ export const Subtitle = styled.h2`
   font-weight: inherit;
 `;
 
-
 export const Logo = styled.img`
-margin: 1rem 0 1.5rem 0;
-`
+  margin: 1rem 0 1.5rem 0;
+`;

@@ -7,6 +7,13 @@ export const AvatarWrapper = styled.div`
   padding: 0.5rem;
   position: relative;
   margin-top: 2rem;
+  transition: 0.5s;
+  &:hover {
+
+    img {
+      transition: 0.5s;
+    }
+  }
 
   &::before {
     content: "";
@@ -14,7 +21,6 @@ export const AvatarWrapper = styled.div`
     z-index: -1;
     inset: 0;
     padding: 2px;
-
     border-radius: 50%;
     background: linear-gradient(134.82deg, #ffb800 2.82%, #ab72f3 107.42%);
     -webkit-mask: linear-gradient(#fff 0 0) content-box,
@@ -22,6 +28,8 @@ export const AvatarWrapper = styled.div`
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
+
+  
   }
 `;
 

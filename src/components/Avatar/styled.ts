@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AvatarWrapper = styled.div`
   width: clamp(2rem, 60vw, 8rem);
-  aspect-ratio: 1/1;
+  height: fit-content;
   border-radius: 50%;
   padding: 0.5rem;
   position: relative;

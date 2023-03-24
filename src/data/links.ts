@@ -15,7 +15,7 @@ export const Links = [
         icon: '/icons/behance.svg',
         title: 'Meu Portfólio',
         subtitle: 'Conheça meu trabalho',
-        url: 'https://behance.net/igorvinicius8'
+        url: 'https://www.behance.net/theiguin'
     },
     {
         icon: '/icons/github.svg',

@@ -31,7 +31,7 @@ color: white;
     padding: 1px;
 
     border-radius: 0.5rem;
-    background: linear-gradient(134.82deg, #ab72f3 2.82%,  #ffb800 107.42%);
+    background: linear-gradient(134.82deg, #ffcc00 2.82%,  #ffcc00 107.42%);
     -webkit-mask: linear-gradient(#fff 0 0) content-box,
       linear-gradient(#fff 0 0);
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);

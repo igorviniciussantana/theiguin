@@ -10,10 +10,7 @@ export const GreetingWrapper = styled.div`
 `;
 
 export const Title = styled.h1`
-  background: linear-gradient(90.69deg, #ffb800 -2.01%, #9f53ff 109.28%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #ffcc00;
   text-align: center;
   font-size: 1.5rem;
   text-transform: uppercase;

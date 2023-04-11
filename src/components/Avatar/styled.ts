@@ -22,7 +22,7 @@ export const AvatarWrapper = styled.div`
     inset: 0;
     padding: 2px;
     border-radius: 50%;
-    background: linear-gradient(134.82deg, #ffb800 2.82%, #ab72f3 107.42%);
+    background: linear-gradient(134.82deg, #ffcc00 2.82%, #ffcc00 107.42%);
     -webkit-mask: linear-gradient(#fff 0 0) content-box,
       linear-gradient(#fff 0 0);
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
